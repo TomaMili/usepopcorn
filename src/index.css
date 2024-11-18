@@ -207,7 +207,6 @@ body {
 .btn-delete:hover {
   background-color: var(--color-red-dark);
 }
-
 /* ******* */
 
 .summary {
@@ -238,7 +237,12 @@ body {
 }
 
 /* ******* */
-
+.rated-mov {
+  width: 100%;
+  text-align: center;
+  font-size: 1.8rem;
+  font-style: italic;
+}
 .details {
   line-height: 1.4;
   font-size: 1.4rem;
@@ -256,7 +260,8 @@ body {
 }
 
 .details img {
-  width: 33%;
+  width: 60%;
+  height: inherit;
 }
 
 .details-overview {
@@ -321,7 +326,7 @@ body {
   position: absolute;
   top: 0.6rem;
   left: 0.6rem;
-  height: 3.2rem;
+  height: 2.6rem;
   aspect-ratio: 1;
   border-radius: 50%;
   border: none;
@@ -330,7 +335,7 @@ body {
   color: var(--color-background-500);
   box-shadow: 0 8px 20px rgba(0, 0, 0, 0.8);
   font-family: sans-serif;
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   font-weight: bold;
   cursor: pointer;
   z-index: 999;
